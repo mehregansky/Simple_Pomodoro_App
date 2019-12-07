@@ -1,0 +1,67 @@
+#container{
+	border: 20px outset rgb(100, 102, 90);
+	border-radius: 70px;
+	height: 400px;
+	width: 400px;
+	margin: auto;
+	margin-top: 75px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(104, 102, 75);
+}
+
+#timer{
+	border: 7px outset red;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	font-size: 50px;
+	overflow: hidden;
+	position: relative;
+    user-select: none;
+    cursor:default;
+}
+
+#time{
+	margin-top: 70px;
+	position: relative;
+	z-index: 1;
+}
+
+#filler{
+  background: rosybrown;
+  height: 0px;
+  width: 200px;
+  position:absolute;
+  bottom:0;
+}
+
+#buttons button{
+	background: skyblue;
+	border: 0px;
+	border-radius: 50px;
+	color: teal;
+	cursor: pointer;
+	margin: 50px auto;
+	height: 50px;
+	width: 90px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+#buttons button#start{
+	background: rgb(176, 171, 238);
+}
+
+#buttons button#shortBreak{
+	background: rgb(155, 191, 245);
+}
+
+#buttons button#longBreak{
+	background: rgb(183, 166, 243);
+}
+
+#buttons button#stop{
+	background: rgb(180, 173, 219);
+}
